@@ -1,12 +1,12 @@
 module.exports = function (app, db) {
     //CRUD API
     app.get('/api/itemStores/all', function (req, res) {
-        db.itemStore.findAll({}).then(function (result) {
+        db.Item.findAll({}).then(function (result) {
             res.json(result)
         });
     }); // read
     app.post('/api/itemStores/new', function (req, res) {
-        db.Store.create({
+        db.Item.create({
             itemId: req.body.itemId,
             storeId: req.body.storeId
         }).then(function (result) {

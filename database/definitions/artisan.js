@@ -1,3 +1,7 @@
+'use strict';
+
+const DataTypes = require('sequelize');
+
 module.exports = function (sequelize, DataTypes) {
     var artisan = sequelize.define("Item", {
         name: DataTypes.STRING,
