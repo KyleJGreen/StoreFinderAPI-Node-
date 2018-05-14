@@ -3,7 +3,12 @@ const app = express();
 const bodyParser = require('body-parser');
 const db = require('./database');
 
-var PORT = process.env.PORT || 3000;
+const Artisans = require('./app/routes/Artisans.js');
+const Stores = require('./app/routes/Stores.js');
+const Items = require('./app/routes/Things.js');
+const ItemStores = require('./app/routes/ItemStores.js');
+
+const PORT = process.env.PORT || 3000;
 
 // Set up the express app to handle data parsing
 app.use(bodyParser.json());
@@ -12,18 +17,11 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type : "application/vmd.api-json"}));
 app.use(express.static("app/public"));
 
-// how to use models:
-app.get('/artisans/:id', async (req, res) => {
-    try {
-        const Artisan = db.models.Artisan;
-        const artisan = await Artisan.findOne({id: req.params.id});
-        res.status(200).send(artisan);
-    }
-    catch (error) {
-        res.status(500).send(error);
-    }
-});
-
+// Initialize routes
+Artisans(app, db);
+Stores(app, db);
+Items(app, db);
+ItemStores(app, db);
 
 db.connection.sync().then(() => {
     app.listen(PORT, () => console.log('Listening on PORT:', PORT));
