@@ -23,8 +23,6 @@ Stores(app, db);
 Items(app, db);
 ItemStores(app, db);
 
-console.log('Port:',PORT);
-
 db.connection.sync().then(() => {
     app.listen(PORT, () => console.log('Listening on PORT:', PORT));
 });
