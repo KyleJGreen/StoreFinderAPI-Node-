@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcdafc7a-79a5-45bc-9bf8-734a90141f6e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/routes/Things.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/artisans.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/Artisans.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/findStores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/FindStores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/itemStores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/ItemStores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/stores.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/Stores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/definitions/artisan.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/definitions/Artisan.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/definitions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/definitions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/definitions/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/definitions/Thing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/definitions/itemStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/definitions/ItemStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/definitions/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/definitions/Store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="fcdafc7a-79a5-45bc-9bf8-734a90141f6e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,20 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="-27">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemStores.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/ItemStores.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="64" column="2" selection-end-line="64" selection-end-column="2" />
+            <state relative-caret-position="609">
+              <caret line="21" column="18" selection-start-line="16" selection-start-column="5" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -55,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Artisans.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Artisans.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes/Artisans.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2117">
-              <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+            <state relative-caret-position="261">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="12" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -76,8 +71,8 @@
       <file leaf-file-name="Things.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes/Things.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="66" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -260,12 +255,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526234874620</updated>
       <workItem from="1526234877347" duration="9631000" />
-      <workItem from="1526254027643" duration="25693000" />
+      <workItem from="1526254027643" duration="28460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35324000" />
+    <option name="totallyTimeSpent" value="38091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="-8" width="2030" height="1448" extended-state="6" />
@@ -362,20 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/definitions/ItemStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -394,13 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -432,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/Things.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/definitions/Store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -455,8 +422,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/Artisans.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2117">
-          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        <state relative-caret-position="261">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/Things.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="66" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="18" selection-start-line="16" selection-start-column="5" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
