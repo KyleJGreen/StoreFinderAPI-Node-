@@ -12,6 +12,21 @@ module.exports = function (app, db) {
         }
     }); //   read
 
+    app.get('/api/things/:name', async (req, res) => {
+        try {
+            const Thing = db.models.Thing;
+            const thing = await Thing.findAll({
+                where: {
+                    name: req.params.name
+                }
+            });
+            res.status(200).send(thing);
+        }
+        catch (error) {
+            res.status(500).send(error);
+        }
+    }); //   read
+
     app.post('/api/things/new', async (req, res) => {
         try {
             const Thing = db.models.Thing;
