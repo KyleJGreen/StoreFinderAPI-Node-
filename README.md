@@ -8,9 +8,11 @@ One may make a :
 POST request to api/things/new to add a new item
 <p>
 GET request to api/things/all to retrieve all items
-<l>
+<p>
 GET request to /api/things/id/:id to retrieve a signle item
+<p>
 PUT request to /api/things/update/:id to update an item
+<p>
 DELETE request to /api/things/delete/:id to delete an item
 
 One may also run AngularInventorySystem locally to call this API through a web interface.
